@@ -1,0 +1,28 @@
+{
+  "name": "forum-ddd-rocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test-watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.10.1",
+    "eslint": "^8.57.1",
+    "typescript": "^5.7.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
