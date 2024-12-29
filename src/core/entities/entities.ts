@@ -12,4 +12,8 @@ export class Entity<Props> {
     this.props = props
     this._id = id ?? new UniqueEntityID()
   }
+
+  public equals(entity: Entity<Props>) {
+    return entity === this
+  }
 }
